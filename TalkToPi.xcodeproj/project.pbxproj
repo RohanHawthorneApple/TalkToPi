@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86964F401D9D0CCB00786E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86964F3F1D9D0CCB00786E21 /* main.m */; };
+		86964F431D9D0CCB00786E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86964F421D9D0CCB00786E21 /* AppDelegate.m */; };
+		86964F461D9D0CCB00786E21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86964F451D9D0CCB00786E21 /* ViewController.m */; };
+		86964F491D9D0CCB00786E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86964F471D9D0CCB00786E21 /* Main.storyboard */; };
+		86964F4C1D9D0CCB00786E21 /* TalkToPi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86964F4A1D9D0CCB00786E21 /* TalkToPi.xcdatamodeld */; };
+		86964F4E1D9D0CCB00786E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86964F4D1D9D0CCB00786E21 /* Assets.xcassets */; };
+		86964F511D9D0CCB00786E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86964F4F1D9D0CCB00786E21 /* LaunchScreen.storyboard */; };
+		86964F5C1D9D0CCB00786E21 /* TalkToPiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86964F5B1D9D0CCB00786E21 /* TalkToPiTests.m */; };
+		86964F671D9D0CCB00786E21 /* TalkToPiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86964F661D9D0CCB00786E21 /* TalkToPiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86964F581D9D0CCB00786E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86964F331D9D0CCA00786E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86964F3A1D9D0CCA00786E21;
+			remoteInfo = TalkToPi;
+		};
+		86964F631D9D0CCB00786E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86964F331D9D0CCA00786E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86964F3A1D9D0CCA00786E21;
+			remoteInfo = TalkToPi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86964F3B1D9D0CCB00786E21 /* TalkToPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86964F3F1D9D0CCB00786E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86964F411D9D0CCB00786E21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86964F421D9D0CCB00786E21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86964F441D9D0CCB00786E21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86964F451D9D0CCB00786E21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86964F481D9D0CCB00786E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86964F4B1D9D0CCB00786E21 /* TalkToPi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TalkToPi.xcdatamodel; sourceTree = "<group>"; };
+		86964F4D1D9D0CCB00786E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86964F501D9D0CCB00786E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86964F521D9D0CCB00786E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86964F571D9D0CCB00786E21 /* TalkToPiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToPiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86964F5B1D9D0CCB00786E21 /* TalkToPiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkToPiTests.m; sourceTree = "<group>"; };
+		86964F5D1D9D0CCB00786E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86964F621D9D0CCB00786E21 /* TalkToPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86964F661D9D0CCB00786E21 /* TalkToPiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkToPiUITests.m; sourceTree = "<group>"; };
+		86964F681D9D0CCB00786E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86964F381D9D0CCA00786E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F541D9D0CCB00786E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F5F1D9D0CCB00786E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86964F321D9D0CCA00786E21 = {
+			isa = PBXGroup;
+			children = (
+				86964F3D1D9D0CCB00786E21 /* TalkToPi */,
+				86964F5A1D9D0CCB00786E21 /* TalkToPiTests */,
+				86964F651D9D0CCB00786E21 /* TalkToPiUITests */,
+				86964F3C1D9D0CCB00786E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86964F3C1D9D0CCB00786E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86964F3B1D9D0CCB00786E21 /* TalkToPi.app */,
+				86964F571D9D0CCB00786E21 /* TalkToPiTests.xctest */,
+				86964F621D9D0CCB00786E21 /* TalkToPiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86964F3D1D9D0CCB00786E21 /* TalkToPi */ = {
+			isa = PBXGroup;
+			children = (
+				86964F411D9D0CCB00786E21 /* AppDelegate.h */,
+				86964F421D9D0CCB00786E21 /* AppDelegate.m */,
+				86964F441D9D0CCB00786E21 /* ViewController.h */,
+				86964F451D9D0CCB00786E21 /* ViewController.m */,
+				86964F471D9D0CCB00786E21 /* Main.storyboard */,
+				86964F4D1D9D0CCB00786E21 /* Assets.xcassets */,
+				86964F4F1D9D0CCB00786E21 /* LaunchScreen.storyboard */,
+				86964F521D9D0CCB00786E21 /* Info.plist */,
+				86964F4A1D9D0CCB00786E21 /* TalkToPi.xcdatamodeld */,
+				86964F3E1D9D0CCB00786E21 /* Supporting Files */,
+			);
+			path = TalkToPi;
+			sourceTree = "<group>";
+		};
+		86964F3E1D9D0CCB00786E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86964F3F1D9D0CCB00786E21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86964F5A1D9D0CCB00786E21 /* TalkToPiTests */ = {
+			isa = PBXGroup;
+			children = (
+				86964F5B1D9D0CCB00786E21 /* TalkToPiTests.m */,
+				86964F5D1D9D0CCB00786E21 /* Info.plist */,
+			);
+			path = TalkToPiTests;
+			sourceTree = "<group>";
+		};
+		86964F651D9D0CCB00786E21 /* TalkToPiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86964F661D9D0CCB00786E21 /* TalkToPiUITests.m */,
+				86964F681D9D0CCB00786E21 /* Info.plist */,
+			);
+			path = TalkToPiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86964F3A1D9D0CCA00786E21 /* TalkToPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86964F6B1D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPi" */;
+			buildPhases = (
+				86964F371D9D0CCA00786E21 /* Sources */,
+				86964F381D9D0CCA00786E21 /* Frameworks */,
+				86964F391D9D0CCA00786E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkToPi;
+			productName = TalkToPi;
+			productReference = 86964F3B1D9D0CCB00786E21 /* TalkToPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86964F561D9D0CCB00786E21 /* TalkToPiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86964F6E1D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPiTests" */;
+			buildPhases = (
+				86964F531D9D0CCB00786E21 /* Sources */,
+				86964F541D9D0CCB00786E21 /* Frameworks */,
+				86964F551D9D0CCB00786E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86964F591D9D0CCB00786E21 /* PBXTargetDependency */,
+			);
+			name = TalkToPiTests;
+			productName = TalkToPiTests;
+			productReference = 86964F571D9D0CCB00786E21 /* TalkToPiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86964F611D9D0CCB00786E21 /* TalkToPiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86964F711D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPiUITests" */;
+			buildPhases = (
+				86964F5E1D9D0CCB00786E21 /* Sources */,
+				86964F5F1D9D0CCB00786E21 /* Frameworks */,
+				86964F601D9D0CCB00786E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86964F641D9D0CCB00786E21 /* PBXTargetDependency */,
+			);
+			name = TalkToPiUITests;
+			productName = TalkToPiUITests;
+			productReference = 86964F621D9D0CCB00786E21 /* TalkToPiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86964F331D9D0CCA00786E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rohan Hawthorne";
+				TargetAttributes = {
+					86964F3A1D9D0CCA00786E21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+					};
+					86964F561D9D0CCB00786E21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86964F3A1D9D0CCA00786E21;
+					};
+					86964F611D9D0CCB00786E21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K6ZGCJU877;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86964F3A1D9D0CCA00786E21;
+					};
+				};
+			};
+			buildConfigurationList = 86964F361D9D0CCA00786E21 /* Build configuration list for PBXProject "TalkToPi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86964F321D9D0CCA00786E21;
+			productRefGroup = 86964F3C1D9D0CCB00786E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86964F3A1D9D0CCA00786E21 /* TalkToPi */,
+				86964F561D9D0CCB00786E21 /* TalkToPiTests */,
+				86964F611D9D0CCB00786E21 /* TalkToPiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86964F391D9D0CCA00786E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86964F511D9D0CCB00786E21 /* LaunchScreen.storyboard in Resources */,
+				86964F4E1D9D0CCB00786E21 /* Assets.xcassets in Resources */,
+				86964F491D9D0CCB00786E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F551D9D0CCB00786E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F601D9D0CCB00786E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86964F371D9D0CCA00786E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86964F461D9D0CCB00786E21 /* ViewController.m in Sources */,
+				86964F4C1D9D0CCB00786E21 /* TalkToPi.xcdatamodeld in Sources */,
+				86964F431D9D0CCB00786E21 /* AppDelegate.m in Sources */,
+				86964F401D9D0CCB00786E21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F531D9D0CCB00786E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86964F5C1D9D0CCB00786E21 /* TalkToPiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86964F5E1D9D0CCB00786E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86964F671D9D0CCB00786E21 /* TalkToPiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86964F591D9D0CCB00786E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86964F3A1D9D0CCA00786E21 /* TalkToPi */;
+			targetProxy = 86964F581D9D0CCB00786E21 /* PBXContainerItemProxy */;
+		};
+		86964F641D9D0CCB00786E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86964F3A1D9D0CCA00786E21 /* TalkToPi */;
+			targetProxy = 86964F631D9D0CCB00786E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86964F471D9D0CCB00786E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86964F481D9D0CCB00786E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86964F4F1D9D0CCB00786E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86964F501D9D0CCB00786E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86964F691D9D0CCB00786E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86964F6A1D9D0CCB00786E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86964F6C1D9D0CCB00786E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86964F6D1D9D0CCB00786E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86964F6F1D9D0CCB00786E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToPi.app/TalkToPi";
+			};
+			name = Debug;
+		};
+		86964F701D9D0CCB00786E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToPi.app/TalkToPi";
+			};
+			name = Release;
+		};
+		86964F721D9D0CCB00786E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalkToPi;
+			};
+			name = Debug;
+		};
+		86964F731D9D0CCB00786E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K6ZGCJU877;
+				INFOPLIST_FILE = TalkToPiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TallyHo.TalkToPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalkToPi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86964F361D9D0CCA00786E21 /* Build configuration list for PBXProject "TalkToPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86964F691D9D0CCB00786E21 /* Debug */,
+				86964F6A1D9D0CCB00786E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86964F6B1D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86964F6C1D9D0CCB00786E21 /* Debug */,
+				86964F6D1D9D0CCB00786E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86964F6E1D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86964F6F1D9D0CCB00786E21 /* Debug */,
+				86964F701D9D0CCB00786E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86964F711D9D0CCB00786E21 /* Build configuration list for PBXNativeTarget "TalkToPiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86964F721D9D0CCB00786E21 /* Debug */,
+				86964F731D9D0CCB00786E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86964F4A1D9D0CCB00786E21 /* TalkToPi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86964F4B1D9D0CCB00786E21 /* TalkToPi.xcdatamodel */,
+			);
+			currentVersion = 86964F4B1D9D0CCB00786E21 /* TalkToPi.xcdatamodel */;
+			path = TalkToPi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86964F331D9D0CCA00786E21 /* Project object */;
+}
